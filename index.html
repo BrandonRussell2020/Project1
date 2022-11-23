@@ -6,20 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brandon's Portfolio</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <h1> Brandon Russell </h1>
-    <!-- nav -->
-    <nav>
-        <ul id="menu">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Portfolio">Portfolio</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <h1> Brandon Russell </h1>
+        <!-- nav -->
+        <nav>
+            <ul id="menu">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <!-- Introductory Section -->
     <section id="Home">
@@ -27,7 +28,7 @@
             <!-- Group 1: 2 Items-->
             <div class="group">
                 <div class="item">
-                    <img src="profile-image.jpg" alt="profile-picture" class="intro-image" />
+                    <img src="profile_pic.jpeg" alt="profile-picture" class="intro-image" />
                 </div>
 
                 <div class="item-double">
@@ -75,6 +76,122 @@
             </div>
         </div>
     </section>
+
+    <!-- Portfolio Section -->
+
+    <section id="Portfolio">
+        <div class="wrapper">
+            <h2> Portfolio </h2>
+
+            <!-- Group 3: 3 Items-->
+
+            <div class="group">
+
+                <div class="item-triple">
+                    <img src="" alt="placeholder-image-for-project" class="portfolio-image" />
+                    <h3> Project 1 Place Holder </h3>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae a, ipsam, voluptates unde
+                        itaque odit tempore vitae dolore impedit illum praesentium natus quis ut tempora? Doloremque
+                        molestiae sint neque harum!
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Angular.js</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+
+                    </ul>
+                    </p>
+                    <ul class="links">
+                        <li><a href="" target="_blank">Live Site</a></li>
+                        <li><a href="" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+                <div class="item-triple">
+                    <img src="" alt="placeholder-image-for-project" class="portfolio-image" />
+                    <h3> Project 2 Place Holder </h3>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum illo aliquam labore accusamus
+                        quisquam pariatur cumque earum ad repudiandae ipsam a non blanditiis molestias, adipisci sint
+                        iste ut est obcaecati.
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                    </ul>
+                    </p>
+
+                    <ul class="links">
+                        <li><a href="" target="_blank">Live Site</a>
+                        </li>
+                        <li><a href="" target="_blank">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="item-triple">
+                    <img src="" alt="placeholder-image-for-project" class="portfolio-image" />
+                    <h3> Project 3 Place Holder</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam cum hic tempora atque nisi dolore
+                        illo veniam cupiditate porro, fuga tenetur rerum laborum dolorum, quidem, amet doloremque?
+                        Nostrum, similique ut!
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React.js</li>
+                        <li>Jest and Enzyme Testing</li>
+                    </ul>
+                    </p>
+
+                    <ul class="links">
+                        <li><a href="" target="_blank">Live Site</a></li>
+                        <li><a href="" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+
+    <section id="Contact">
+        <div class="wrapper">
+            <h2> Contact and Follow </h2>
+            <hr>
+            <!-- Group 4: 2 items-->
+            <div class="group">
+                <div class="item">
+                    <!-- Contact Form -->
+
+                    <form action="https://formspree.io/f/xkneekwb" method="POST" target="_blank">
+                        <label for="user-name">Name:</label>
+                        <input id="user-name" type="text" name="name">
+
+                        <label for="user-email">Email:</label>
+                        <input id="user-email" type="text" name="email">
+
+                        <label for="user-message">Message:</label>
+                        <textarea id="user-message" name="message"></textarea>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </form>
+                </div>
+
+                <div class="item">
+                    <div class="item-double">
+                        <a href="https://www.linkedin.com/in/brandonrusselle/" target="_blank"><img
+                                src=linked-in.png alt="linkedin logo" class="linkedin"></a>
+                        <a href="https://github.com/BrandonRussell2020" target="_blank"><img src="github.jpg"
+                                alt="github logo" class="github"> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
 </body>
 
 </html>
