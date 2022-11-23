@@ -127,6 +127,9 @@
     background-color: #F3EDE9;
     margin-bottom: 10px;
     display: block;
+    position:fixed;
+    top:0;
+    width:100%;
   }
   
   header h1 {
